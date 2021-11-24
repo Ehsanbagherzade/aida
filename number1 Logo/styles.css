@@ -1,0 +1,38 @@
+*{
+    margin: auto;
+}
+div{
+    border: #4a4266 3px solid;
+    margin-top: 13%;
+    height: 23vw;
+    width: 62vw;
+    background-color: #09136d;
+}
+@font-face {
+    font-family: 'Niconne';
+    src: url("fontss/Niconne-Regular.ttf") format("ttf");
+    font-style: normal;
+    font-weight: normal;
+    src: local('Niconne Regular'), url('fontss/Niconne-Regular.woff') format('woff');
+}
+p{
+    padding-top: 7%;
+    color: #ff0051;
+    text-align: center;
+    font-size: 11vw;
+    font-family: Niconne;
+    /*text-shadow: lavender 5px 4px 5px,*/
+    /*5px 5px 3px red;*/
+    text-shadow: -1px 1px 0 #ddd,
+    -2px 2px 0 #c8c8c8,
+    -3px 3px 0 #ccc,
+    -4px 4px 0 #b8b8b8,
+    -4px 4px 0 #bbb,
+    4px 1px 1px rgba(0,0,0,.4),
+    0px 2px 2px rgba(0,0,0,.3),
+    -1px 3px 3px rgba(0,0,0,.2),
+    -1px 5px 5px rgba(0,0,0,.1),
+    -2px 8px 8px rgba(0,0,0,.1),
+    -2px 13px 13px rgba(0,0,0,.1);
+
+}
